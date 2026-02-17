@@ -25,6 +25,10 @@ export interface Resource {
   updated_at: string
 }
 
+export type City = "Lille" | "Paris" | "Lyon" | "Remote" | "Autre"
+
+export type EventType = "meetup" | "webinar" | "workshop" | "conference"
+
 export interface Event {
   id: string
   slug: string
@@ -33,11 +37,12 @@ export interface Event {
   event_date: string
   event_end_date: string | null
   location: string | null
+  city: City
   image_url: string | null
   registration_url: string | null
   replay_url: string | null
   is_past: boolean
-  event_type: "meetup" | "webinar" | "workshop" | "conference"
+  event_type: EventType
   capacity: number | null
   published: boolean
   created_at: string
