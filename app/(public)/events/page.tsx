@@ -38,8 +38,8 @@ function EventsLoading() {
   );
 }
 
-export default function EventsPage() {
-  const events = getEvents();
+export default async function EventsPage() {
+  const events = await getEvents();
 
   return (
     <Suspense fallback={<EventsLoading />}>
