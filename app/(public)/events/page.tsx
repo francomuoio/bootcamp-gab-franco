@@ -4,6 +4,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { EventsPageClient } from "@/components/events/events-page-client";
 import { getEvents } from "@/lib/data/events";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Events",
   description:
