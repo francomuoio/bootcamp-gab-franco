@@ -94,6 +94,11 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 SUPABASE_SERVICE_ROLE_KEY=
 ```
 
+## MCP Servers
+
+- **Context7**: Documentation des librairies à jour. Usage : questions sur les APIs, syntaxe.
+- **Chrome DevTools**: Automatisation navigateur (scraping, tests UI, navigation web). Lancer Chrome avec `--remote-debugging-port=9222` avant utilisation.
+
 ## Feature Documentation
 
 Detailed PRDs available in `docs/`:
